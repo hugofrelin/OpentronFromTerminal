@@ -1,2 +1,1 @@
-# OpentronFromTerminal
- This is a python script for controlling the Opentron from terminal commands.
+# Controlling the Opentron Robot from the terminal

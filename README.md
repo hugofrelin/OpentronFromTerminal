@@ -1,2 +1,2 @@
-# OT_API_From_Terminal
+# OpentronFromTerminal
  This is a python script for controlling the Opentron from terminal commands.

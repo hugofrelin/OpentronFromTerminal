@@ -156,18 +156,18 @@ def get_sessions():
 
 def scan_for_robots():
     ip_dict = {
-        '192.168.100.209': 'VULCAN',
-        '192.168.100.94': 'CERES',
-        '192.168.100.200': 'HERCULES',
-        '192.168.100.137': 'ISABELA',
-        '192.168.100.179': 'MINERVA'
+        '192.0.2.0': 'ROBOT1',
+        '192.0.2.0': 'ROBOT2',
+        '192.0.2.0': 'ROBOT3',
+        '192.0.2.0': 'ROBOT4',
+        '192.0.2.0': 'ROBOT5'
     }
     robot_dict = {
-        'VULCAN': {'IP': '192.168.100.209', 'Available': 'unknown'},
-        'CERES': {'IP': '192.168.100.94', 'Available': 'unknown'},
-        'HERCULES': {'IP': '192.168.100.200', 'Available': 'unknown'},
-        'ISABELA': {'IP': '192.168.100.137', 'Available': 'unknown'},
-        'MINERVA': {'IP': '192.168.100.179', 'Available': 'unknown'}
+        'ROBOT1': {'IP': '192.0.2.0', 'Available': 'unknown'},
+        'ROBOT2': {'IP': '192.0.2.0', 'Available': 'unknown'},
+        'ROBOT3': {'IP': '192.0.2.0', 'Available': 'unknown'},
+        'ROBOT4': {'IP': '192.0.2.0', 'Available': 'unknown'},
+        'ROBOT5': {'IP': '192.0.2.0', 'Available': 'unknown'}
     }
     ip_dictionary = []
 

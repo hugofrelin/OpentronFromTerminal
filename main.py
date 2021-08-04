@@ -5,10 +5,6 @@ import argparse
 import pprint
 from icmplib import multiping
 
-
-# filename = "simple_protocol.py"
-# robot_ip = "192.168.100.94"
-
 def upload_protocol(robot_ip, filename):
 
     print(open(filename, 'rb'))
@@ -17,8 +13,6 @@ def upload_protocol(robot_ip, filename):
         headers={"Opentrons-Version": "2"},
         files=[("protocolFile", open(filename, 'rb')),]
     )
-
-    #print(open(filename, 'rb'))
 
     protocol_id_dictionary = {
         "protocol_id": response.json()['data']['id'],
